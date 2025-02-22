@@ -22,3 +22,5 @@ jobs:
       - name: AI Review
         id: ai-review
         uses: sidathasiri/ai-code-reviewer@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
