@@ -19,9 +19,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.ACCESS_KEY_SECRET }}
           aws-region: us-east-1
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: AI Review
         id: ai-review
         uses: sidathasiri/ai-code-reviewer@main
