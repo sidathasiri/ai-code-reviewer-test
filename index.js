@@ -6,4 +6,5 @@ while (true) {
   console.log("This will run forever!");
 }
 
-// add infinite loop
+const db_password = "1234567890";
+console.log(db_password);
