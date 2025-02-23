@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write # Grant write access to pull requests
-      contents: read       # Grant read access to repository contents
+      contents: write       # Grant read access to repository contents
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
