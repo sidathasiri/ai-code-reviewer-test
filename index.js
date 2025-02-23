@@ -6,5 +6,6 @@ while (true) {
   console.log("This will run forever!");
 }
 
+// password
 const db_password = "1234567890";
 console.log(db_password);
