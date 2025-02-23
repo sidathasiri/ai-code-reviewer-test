@@ -3,5 +3,5 @@ console.log(api_secret);
 
 // add infinite loop
 while (true) {
-  console.log("This will run forever!");
+  console.log("This will run forever!")
 }
